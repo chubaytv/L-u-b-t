@@ -239,7 +239,7 @@
 <body>
   <header>
     <h1>Lưu Bút Của Tiên 💖</h1>
-    <p>Hãy để lại kỷ niệm ngọt ngào cho tớ nhé! 🌸✨</p>
+    <p>Hãy để lại kỷ niệm đáng nhớ cho tớ nhé! 🌸✨</p>
     <button onclick="document.getElementById('form-section').scrollIntoView({ behavior: 'smooth' })">Viết Lưu Bút Ngay</button>
   </header>
 
@@ -247,9 +247,9 @@
     <h2>Viết Lời Nhắn 💌</h2>
     <form id="memory-form">
       <label for="name">Tên của bạn:</label>
-      <input type="text" id="name" placeholder="Nhập tên thật dễ thương..." required>
+      <input type="text" id="name" placeholder="Nhập tên thật dễ cute:))..." required>
       <label for="message">Lời nhắn yêu thương:</label>
-      <textarea id="message" placeholder="Chia sẻ cảm xúc của bạn nào... 💕" required></textarea>
+      <textarea id="message" placeholder="Chia sẻ cảm nhận về tớ ... 💕" required></textarea>
       <label for="image">Hình ảnh kỷ niệm (tùy chọn):</label>
       <input type="file" id="image" accept="image/*">
       <button type="submit">Gửi Lưu Bút Ngay 🌸</button>
@@ -286,7 +286,7 @@
     const storage = firebase.storage();
 
     // Mật khẩu để xem lưu bút (chỉ bạn biết)
-    const correctPassword = "123chubay"; // Thay bằng mật khẩu của bạn
+    const correctPassword = "123chubay";
 
     // Gửi lưu bút
     document.getElementById('memory-form').addEventListener('submit', function(e) {
